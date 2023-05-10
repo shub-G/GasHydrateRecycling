@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 		//initialize MPI
 		Dune::MPIHelper& helper = Dune::MPIHelper::instance(argc, argv);
 	    if(helper.rank()==0){
-	    std::cout << "This is project HydrateGeoChem." << std::endl;
+	    std::cout << "This is project GasHydrateRecycling." << std::endl;
 	    }
 	    if(Dune::MPIHelper::isFake){
 	      std::cout<< "This is a sequential program." << std::endl;
@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 	    // DUNE MODEL PATH
 	    std::string MODEL_PATH = "/home/";
 		MODEL_PATH += USER_NAME;
-		MODEL_PATH += "/dune_2_8/HydrateGeoChem/src/";
+		MODEL_PATH += "/dune_2_8/GasHydrateRecycling/src/";
 	    // PROBLEM NAME
 	    std::string PROBLEM_NAME = "problem/";
 	    // INPUT PATH NAME
