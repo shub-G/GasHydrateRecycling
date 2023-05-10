@@ -34,9 +34,10 @@ This repository contains the source code used in the numerical simulations prese
 ## To run the simulations:
 * Execute following commands in terminal (in given order):
   * cd /dune_2_8/GasHydrateRecycling/release-build/src
-  * ./problem \_your_user_name\_ \_input-file\_  
+  * ./problem \_your-user-name\_ \_input-file\_  
     * input files are located in the folder: /dune_2_8/GasHydrateRecycling/src/problem/inputs/cyclicity_study/
-    * input files are the files with the extension ".ini". In the execution call, drop the .ini extension
+    * input files are the files with the extension ".ini". In the execution call, drop the .ini extension.
+    * hint on \_your_user_name\_: The main executable looks for the following path: home/\_your_user_name\_/dune_2_8/GasHydrateRecycling/
 
 ## Files included in this repo:
 * installation files:
